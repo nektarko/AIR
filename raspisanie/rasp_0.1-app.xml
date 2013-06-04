@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/3.2">
+  <id>rasp</id>
+  <versionNumber>0.1</versionNumber>
+  <filename>raspisanie</filename>
+  <description/>
+  <!-- To localize the description, use the following format for the description element.<description><text xml:lang="en">English App description goes here</text><text xml:lang="fr">French App description goes here</text><text xml:lang="ja">Japanese App description goes here</text></description>-->
+  <name>raspisanie</name>
+  <!-- To localize the name, use the following format for the name element.<name><text xml:lang="en">English App name goes here</text><text xml:lang="fr">French App name goes here</text><text xml:lang="ja">Japanese App name goes here</text></name>-->
+  <copyright>stas.guk@gmail.com</copyright>
+  <initialWindow>
+    <content>rasp_0.1.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>auto</renderMode>
+    <maximizable>false</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+    <autoOrients>false</autoOrients></initialWindow>
+  <icon>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <programMenuFolder>nektarko</programMenuFolder>
+  <supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice </supportedProfiles>
+  <android>
+    <manifestAdditions>
+      <![CDATA[<manifest>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+</manifest>]]>
+    </manifestAdditions>
+  </android>
+  <supportedLanguages>en</supportedLanguages>
+  <versionLabel>beta</versionLabel>
+</application>
